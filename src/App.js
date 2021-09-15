@@ -17,8 +17,9 @@ function App() {
     fetch( url )
       .then(response => response.json())
       .then(data => {
-        setCharacters(data.results);
-        setInfo(data.info);
+        const { results, info } = data
+        setCharacters(results);
+        setInfo(info);
       })
       .catch(error => console.log(error))
   }
@@ -38,8 +39,8 @@ function App() {
   return (
     <>
       <Nav title = 'Rick and Morty App'/>
-          <Card characters={characters}/>
-        <Pagination 
+        <Card characters={characters}/>
+        <Pagination
           prev={info.prev} 
           next={info.next} 
           onPrevious={onPrevious} 
