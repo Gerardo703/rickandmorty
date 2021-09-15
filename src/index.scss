@@ -55,6 +55,7 @@ body{
     border-radius: 16px;
     overflow-x: hidden;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    border: 5px solid var(--light-gray);
     padding: 20px;
     
     &-header {
@@ -194,7 +195,7 @@ body{
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
-        margin-left: 35px;
+        margin-left: 28px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 }
