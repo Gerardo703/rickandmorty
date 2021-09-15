@@ -223,6 +223,12 @@ body{
         // height: 90vh;
     }
 
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
     .navbar{
         text-align: center;
     }
@@ -243,6 +249,12 @@ body{
         // justify-content: center;
         // align-items: center;
         // height: 90vh;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
 
     .navbar{
@@ -269,6 +281,12 @@ body{
         // justify-content: center;
         // align-items: center;
         // height: 90vh;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
 
     .card {
@@ -317,6 +335,12 @@ body{
         // justify-content: center;
         // align-items: center;
         // height: 90vh;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
 
     .card {

@@ -236,6 +236,18 @@ body {
     grid-row-gap: 15px;
     padding: 15px;
   }
+  .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .navbar {
     text-align: center;
   }
@@ -255,6 +267,18 @@ body {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     padding: 5px;
+  }
+  .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .navbar {
     text-align: center;
@@ -278,6 +302,18 @@ body {
         grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+  }
+  .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .card {
     background-color: #3c3e44;
@@ -319,6 +355,18 @@ body {
         grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
+  }
+  .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .card {
     background-color: #3c3e44;
