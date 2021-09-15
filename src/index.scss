@@ -381,5 +381,60 @@ body{
      }
 }
 
+@media (max-width: 310px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        // justify-content: center;
+        // align-items: center;
+        // height: 90vh;
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .card {
+        background-color: #3c3e44;
+        min-width: 320px;
+        border-radius: 16px;
+        overflow-x: hidden;
+        // box-shadow: 10px 10px 30px rgb(0 0 0 0 / 20%);
+        padding: 12px;
+    }
+
+    .navbar{
+        text-align: center;
+        margin-left: 49px;
+    }
+
+    .footer{
+        text-align: center;
+        margin-right: -45px;
+        margin-bottom: 25px;
+    }
+
+    .page-link {
+        width: 150px;
+        height: 30px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background: var(--light-gray);
+        text-align: center;
+        border: none;
+        // box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    }
+
+    .page-item{
+        padding-top: 10px;
+        margin-left: 108px;
+     }
+}
 
 
