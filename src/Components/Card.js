@@ -1,13 +1,13 @@
-export const Card = ({ characters = [] }) => {
+export const Card = ({ characters }) => {
     return ( 
         <>
             {/* Card donde se muestra cada personaje */}
             <div className="container">
                 { characters.map( (character, id ) => (
                     <div key={id} className="card">
-                        <img className="card-header" src="" alt="" />
+                        <img className="card-body-img" src={character.image}  alt="" />
                         <div className="card-body">
-                            <img className="card-body-img" src={character.image} width="120" height="120" alt="" />
+                            {/* <img className="card-body-img" src={character.image} width="120" height="120" alt="" /> */}
                             <h1 className="card-body-name">{character.name}</h1>
                             <p className="card-body-country">{character.location.name}</p>
                         </div>
