@@ -292,6 +292,60 @@ body {
   }
 }
 
+@media (max-width: 355px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[1];
+        grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card {
+    background-color: #3c3e44;
+    min-width: 365px;
+    border-radius: 16px;
+    overflow-x: hidden;
+    padding: 12px;
+  }
+  .navbar {
+    text-align: center;
+    margin-left: 54px;
+  }
+  .footer {
+    text-align: center;
+    margin-right: -45px;
+  }
+  .page-link {
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: var(--light-gray);
+    text-align: center;
+    border: none;
+  }
+  .page-item {
+    padding-top: 16px;
+    margin-left: 126px;
+  }
+}
+
 @media (max-width: 320px) {
   .container {
     display: -ms-grid;
