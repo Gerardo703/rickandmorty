@@ -41,3 +41,6 @@ Consulte la sección <a href="https://create-react-app.dev/docs/deployment/">dep
 
 <li>Para obtener más información sobre la API rick an morty, consulte <a href="https://rickandmortyapi.com/documentation">Documentación API Rick and Morty</a></li>
 
+# Link APP 
+<li><a href="https://apprick-and-morty.netlify.app/">Rick and Morty APP</a></li>
+
