@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 
+
+// Estilos Generales // 
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -168,6 +170,10 @@ body{
     text-align: center;
     font-size: 2.5rem;
 }
+
+// Fin Estilos Generales //
+
+// Media Queries Responsive
 
 @media (max-width: 1468px){
     .card-body-img {
@@ -628,4 +634,5 @@ body{
      }
 }
 
+// Fin Media Queries Responsive //
 
