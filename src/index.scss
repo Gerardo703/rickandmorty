@@ -69,7 +69,7 @@ body{
 
         &-img{
             border: 5px solid var(--dark);
-            border-radius: 20%;
+            border-radius: 3%;
             margin-top: calc(-48px - 5px);
             background-color: white;
             margin-top: 10px;
@@ -169,6 +169,30 @@ body{
     font-size: 2.5rem;
 }
 
+@media (max-width: 1468px){
+    .card-body-img {
+        border: 5px solid var(--dark);
+        border-radius: 3%;
+        margin-top: calc(-48px - 5px);
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 53px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+@media (max-width: 1440px){
+    .card-body-img {
+        border: 5px solid var(--dark);
+        border-radius: 3%;
+        margin-top: calc(-48px - 5px);
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 35px;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
 @media (max-width: 1024px) {
     .container{
         display: grid;
@@ -192,11 +216,11 @@ body{
 
     .card-body-img {
         border: 5px solid var(--dark);
-        border-radius: 20%;
+        border-radius: 3%;
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
-        margin-left: 70px;
+        margin-left: 71px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -233,7 +257,7 @@ body{
 
     .card-body-img {
         border: 5px solid var(--dark);
-        border-radius: 20%;
+        border-radius: 3%;
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
@@ -279,11 +303,11 @@ body{
 
     .card-body-img {
         border: 5px solid var(--dark);
-        border-radius: 20%;
+        border-radius: 3%;
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
-        margin-left: 24px;
+        margin-left: 25px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -317,11 +341,11 @@ body{
 
     .card-body-img {
         border: 5px solid var(--dark);
-        border-radius: 20%;
+        border-radius: 3%;
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
-        margin-left: 8px;
+        margin-left: 9px;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -457,7 +481,7 @@ body{
 
     .card-body-img {
         border: 5px solid var(--dark);
-        border-radius: 20%;
+        border-radius: 3%;
         margin-top: calc(-48px - 5px);
         background-color: white;
         margin-top: 10px;
