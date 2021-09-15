@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Rick and Morty APP
+Aplicación simple utilizando la librería React de Javascript.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado utilizando <a href="https://github.com/facebook/create-react-app">Create React App</a>
 
-## Available Scripts
+# Para utilizarla
+<li> Clonar el repositorio. </li>
+<li> Luego ejecutar el comando <code>npm install</code> (colocado en la carpeta del proyecto). </li>
 
-In the project directory, you can run:
+# Scripts Disponibles
+En el proyecto estan disponibles los siguientes scripts
 
-### `yarn start`
+### <code>npm start</code>
+Levanta la aplicación en el ambiente de desarrollo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para ver la aplicación en el navegador abra <a href="http://localhost:3000">http://localhost:3000</a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### <code>npm test</code>
 
-### `yarn test`
+Ejecuta los tests en un modo interactivo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ver la sección <a href="https://create-react-app.dev/docs/running-tests/">running tests</a> para más información.
 
-### `yarn build`
+### <code>npm run build</code>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crea la aplicación para producción en la carpeta <code>build</code>.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Consulte la sección <a href="https://create-react-app.dev/docs/deployment/">deployment</a> para más información.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Herramientas utlizadas
+<li>VS Code</li>
 
-### `yarn eject`
+# Tecnologías utlizadas
+<li>React</li>
+<li>Javascript</li>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Links de interes 
+<li>Puede obtener más información en <a href="https://create-react-app.dev/docs/getting-started/">Documentación de la aplicación Create React</a></li>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<li>Para aprender React, consulte <a href="https://reactjs.org/">Documentación React</a></li>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<li>Para obtener más información sobre la API rick an morty, consulte <a href="https://rickandmortyapi.com/documentation">Documentación API Rick and Morty</a></li>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
