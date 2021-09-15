@@ -196,8 +196,22 @@ body {
     grid-row-gap: 15px;
     padding: 15px;
   }
+  .container-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 17px;
+    margin-top: 5px;
+  }
   .navbar {
     text-align: center;
+    margin-left: 7px;
   }
   .footer {
     text-align: center;
@@ -215,6 +229,19 @@ body {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     padding: 8px;
+  }
+  .container-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 17px;
+    margin-top: 8px;
   }
   .navbar {
     text-align: center;
@@ -235,6 +262,19 @@ body {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     padding: 15px;
+  }
+  .container-pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 17px;
+    margin-top: 5px;
   }
   .card-footer {
     display: -webkit-box;
@@ -288,7 +328,7 @@ body {
   }
   .page-item {
     padding-top: 10px;
-    margin-left: 21px;
+    margin-left: 4px;
   }
 }
 
@@ -395,7 +435,7 @@ body {
   }
   .page-item {
     padding-top: 10px;
-    margin-left: 108px;
+    margin-left: 92px;
   }
 }
 
