@@ -329,10 +329,12 @@ body {
   }
   .navbar {
     text-align: center;
+    margin-left: 49px;
   }
   .footer {
     text-align: center;
     margin-right: -45px;
+    margin-bottom: 25px;
   }
   .page-link {
     width: 150px;
