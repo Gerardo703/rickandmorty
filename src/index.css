@@ -279,12 +279,70 @@ body {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
   }
+  .card {
+    background-color: #3c3e44;
+    min-width: 320px;
+    border-radius: 16px;
+    overflow-x: hidden;
+    padding: 17px;
+  }
   .navbar {
     text-align: center;
   }
   .footer {
     text-align: center;
     margin-right: -45px;
+  }
+  .page-link {
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: var(--light-gray);
+    text-align: center;
+    border: none;
+  }
+  .page-item {
+    padding-top: 10px;
+    margin-left: 108px;
+  }
+}
+
+@media (max-width: 315px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (1fr)[1];
+        grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+  .card {
+    background-color: #3c3e44;
+    min-width: 320px;
+    border-radius: 16px;
+    overflow-x: hidden;
+    padding: 15px;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    margin-right: -45px;
+  }
+  .page-link {
+    width: 150px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: var(--light-gray);
+    text-align: center;
+    border: none;
   }
   .page-item {
     padding-top: 10px;
