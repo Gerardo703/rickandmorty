@@ -332,7 +332,7 @@ body {
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 356px) {
   .container {
     display: -ms-grid;
     display: grid;
@@ -382,7 +382,7 @@ body {
   }
   .page-item {
     padding-top: 16px;
-    margin-left: 126px;
+    margin-left: 113px;
   }
 }
 
