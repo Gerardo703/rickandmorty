@@ -18,13 +18,13 @@ export const Pagination = ({ prev, next, onPrevious, onNext }) => {
                         {
                             prev ? 
                             <button className="page-link" onClick={handlePrevious}>Previous</button>
-                            : null
+                            : <button className="page-link" disabled onClick={handlePrevious}>Previous</button>
                         }
                         {
                             next ? 
                             <button className="page-link" onClick={handleNext}>Next</button>
                             :
-                            null  
+                            <button className="page-link" disabled onClick={handleNext}>Next</button>  
                         }
                     </li> 
                 </ul>

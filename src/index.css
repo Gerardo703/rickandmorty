@@ -264,6 +264,7 @@ body {
   }
   .page-item {
     padding-top: 10px;
+    margin-left: 21px;
   }
 }
 
@@ -277,21 +278,17 @@ body {
         grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
-    padding: 1px;
   }
   .navbar {
     text-align: center;
   }
   .footer {
     text-align: center;
+    margin-right: -45px;
   }
-  .page-link {
-    width: 150px;
-    height: 30px;
-    margin-right: 15px;
-    border-radius: 15px;
-    background: var(--light-gray);
-    text-align: center;
+  .page-item {
+    padding-top: 10px;
+    margin-left: 108px;
   }
 }
 /*# sourceMappingURL=index.css.map */
