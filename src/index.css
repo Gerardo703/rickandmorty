@@ -41,17 +41,15 @@ body {
       grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
-  padding: 40px;
+  padding: 30px;
 }
 
 .card {
   background-color: #3c3e44;
   min-width: 320px;
-  border-radius: 16px;
   overflow-x: hidden;
   -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
           box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
-  border: 5px solid var(--light-gray);
   padding: 20px;
 }
 
@@ -81,7 +79,7 @@ body {
   margin-top: calc(-48px - 5px);
   background-color: white;
   margin-top: 10px;
-  margin-left: 35px;
+  margin-left: 32px;
   -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
           box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
@@ -131,6 +129,16 @@ body {
   margin-bottom: 2rem;
   letter-spacing: 0.2rem;
   color: var(--light-gray);
+}
+
+.border-gradient {
+  border: 5px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-purple {
+  border-image-source: linear-gradient(to right, #48ff00, #e5ff00);
 }
 
 .navbar {
@@ -208,7 +216,7 @@ body {
     margin-top: calc(-48px - 5px);
     background-color: white;
     margin-top: 10px;
-    margin-left: 28px;
+    margin-left: 30px;
     -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
@@ -289,7 +297,7 @@ body {
     margin-top: calc(-48px - 5px);
     background-color: white;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 7px;
     -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
@@ -344,7 +352,7 @@ body {
     margin-top: calc(-48px - 5px);
     background-color: white;
     margin-top: 10px;
-    margin-left: 25px;
+    margin-left: 18px;
     -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
             box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   }
@@ -379,6 +387,15 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .card {
+    background-color: #3c3e44;
+    min-width: 320px;
+    border-radius: 16px;
+    overflow-x: hidden;
+    -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 15px;
   }
   .card-body-img {
     border: 5px solid var(--dark);
@@ -472,7 +489,7 @@ body {
     min-width: 320px;
     border-radius: 16px;
     overflow-x: hidden;
-    padding: 15px;
+    padding: 10px;
   }
   .page-item {
     padding-top: 10px;
@@ -513,7 +530,7 @@ body {
     min-width: 320px;
     border-radius: 16px;
     overflow-x: hidden;
-    padding: 17px;
+    padding: 13px;
   }
   .card-body-img {
     border: 5px solid var(--dark);
