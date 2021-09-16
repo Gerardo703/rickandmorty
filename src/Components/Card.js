@@ -4,7 +4,7 @@ export const Card = ({ characters }) => {
             {/* Card donde se muestra cada personaje */}
             <div className="container">
                 { characters.map( (character, id ) => (
-                    <div key={id} className="card">
+                    <div key={id} className="card gradient-border">
                         <img className="card-body-img" src={character.image}  alt="" />
                         <div className="card-body">
                             {/* <img className="card-body-img" src={character.image} width="120" height="120" alt="" /> */}
