@@ -453,6 +453,16 @@ body{
         padding: 10px;
     }
 
+    .card-body-img {
+        border: 5px solid #24282f;
+        border: 5px solid var(--dark);
+        border-radius: 3%;
+        background-color: #fff;
+        margin-top: 10px;
+        margin-left: 11px;
+        box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    }
+
     .page-item {
         padding-top: 10px;
         margin-left: 1px;
