@@ -132,16 +132,6 @@ body {
   color: var(--light-gray);
 }
 
-.border-gradient {
-  border: 5px solid;
-  border-image-slice: 1;
-  border-width: 5px;
-}
-
-.border-gradient-green {
-  border-image-source: linear-gradient(to right, #48ff00, #e5ff00);
-}
-
 .navbar {
   background-color: var(--dark);
   color: white;
