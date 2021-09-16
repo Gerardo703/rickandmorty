@@ -52,6 +52,7 @@ body{
 .card{
     background-color: #3c3e44;
     min-width: 320px;
+    border-radius: 16px;
     overflow-x: hidden;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -127,10 +128,9 @@ body{
     border: 5px solid;
     border-image-slice: 1;
     border-width: 5px;
-    
-  }
+}
 
-.border-gradient-purple{
+.border-gradient-green{
     border-image-source: linear-gradient(to right, rgb(72, 255, 0), rgb(229, 255, 0));
 }
 
