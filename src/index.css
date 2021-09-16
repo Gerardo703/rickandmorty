@@ -134,7 +134,7 @@ body {
 
 .navbar {
   background-color: var(--dark);
-  color: white;
+  color: var(--light-gray);
   height: 40px;
   padding: 15px;
   text-align: center;
@@ -180,7 +180,7 @@ body {
 
 .footer {
   background-color: var(--dark);
-  color: white;
+  color: var(--light-gray);
   height: 40px;
   padding: 15px;
   text-align: center;
